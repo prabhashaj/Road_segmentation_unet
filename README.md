@@ -2,6 +2,17 @@
 
 This project implements a U-Net-based deep learning pipeline for road segmentation from satellite images. The workflow includes patch extraction, model training, and visualization of results.
 
+
+
+## Results
+Below are three test examples from the trained model (input, ground truth, and prediction shown in order for each test):
+
+![](results/WhatsApp%20Image%202025-07-19%20at%2023.06.58_f7e4a865.jpg)
+![](results/WhatsApp%20Image%202025-07-19%20at%2023.06.58_8c5ef6e9.jpg)
+![](results/WhatsApp%20Image%202025-07-19%20at%2023.07.00_1017b986.jpg)
+
+> **Note:** Place your result images in a `results/` folder at the project root for the images above to render correctly.
+
 ## Folder Structure
 
 ```
@@ -57,15 +68,6 @@ python visualize.py
 - **Architecture:** U-Net (configurable input/output channels)
 - **Loss:** Binary Cross-Entropy with Logits
 - **Metric:** Dice Coefficient
-
-## Results
-Below are sample results from the trained model:
-
-| Input Image | Ground Truth | Prediction |
-|-------------|--------------|------------|
-| ![](results/WhatsApp%20Image%202025-07-19%20at%2023.06.58_f7e4a865.jpg) | ![](results/WhatsApp%20Image%202025-07-19%20at%2023.06.58_8c5ef6e9.jpg) | ![](results/WhatsApp%20Image%202025-07-19%20at%2023.07.00_1017b986.jpg) |
-
-> **Note:** Place your result images in a `results/` folder at the project root for the table above to render correctly.
 
 ## Acknowledgements
 - U-Net: [Ronneberger et al., 2015](https://arxiv.org/abs/1505.04597)
