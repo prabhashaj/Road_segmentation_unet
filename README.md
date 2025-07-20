@@ -7,9 +7,9 @@ This project implements a U-Net-based deep learning pipeline for road segmentati
 ## Results
 Below are three test examples from the trained model (input, ground truth, and prediction shown in order for each test):
 
-![](results/WhatsApp%20Image%202025-07-19%20at%2023.06.58_f7e4a865.jpg)
-![](results/WhatsApp%20Image%202025-07-19%20at%2023.06.58_8c5ef6e9.jpg)
-![](results/WhatsApp%20Image%202025-07-19%20at%2023.07.00_1017b986.jpg)
+![](results/sample1.jpg)
+![](results/sample2.jpg)
+![](results/sample3.jpg)
 
 > **Note:** Place your result images in a `results/` folder at the project root for the images above to render correctly.
 
