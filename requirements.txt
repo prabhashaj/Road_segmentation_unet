@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pillow
+tqdm
+matplotlib
+# Requirements for road segmentation project
+numpy
+pillow
+torch
+torchvision
+albumentations
+scikit-learn
+tqdm
+matplotlib

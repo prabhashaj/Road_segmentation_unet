@@ -1,0 +1,6 @@
+# Ignore model weights and datasets
+*.pth
+dataset/
+results/
+__pycache__/
+*.pyc
