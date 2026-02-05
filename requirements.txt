@@ -2,13 +2,7 @@ torch
 torchvision
 numpy
 pillow
-tqdm
-matplotlib
-# Requirements for road segmentation project
-numpy
-pillow
-torch
-torchvision
+gradio
 albumentations
 scikit-learn
 tqdm

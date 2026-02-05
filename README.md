@@ -2,6 +2,10 @@
 
 This project implements a U-Net-based deep learning pipeline for road segmentation from satellite images. The workflow includes patch extraction, model training, and visualization of results.
 
+## 🚀 Web Application
+
+Try the live demo: Upload your satellite images and get road segmentation predictions in real-time!
+
 
 
 ## Results
