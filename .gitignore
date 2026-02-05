@@ -2,5 +2,6 @@
 *.pth
 dataset/
 results/
+examples/
 __pycache__/
 *.pyc
