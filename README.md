@@ -1,15 +1,3 @@
----
-title: Road Segmentation UNet
-emoji: 🛣️
-colorFrom: yellow
-colorTo: red
-sdk: gradio
-sdk_version: 6.0.0
-app_file: app.py
-pinned: false
-license: mit
----
-
 # Road Segmentation with U-Net
 
 This project implements a U-Net-based deep learning pipeline for road segmentation from satellite images. The workflow includes patch extraction, model training, and visualization of results.
